@@ -1,10 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
-body {
-    font-family: 'Open Sans', sans-serif;
-}
 .status-bar {
     display: flex;
     justify-content: center;
+    padding: 5px 3px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background-color: rgba(255, 255, 255,0.8);
+    box-sizing: border-box;
 }
 .status-bar__column {
     width: 33%;
@@ -12,7 +14,7 @@ body {
 .status-bar__colmn:first-child span {
     margin-right: 5px;
 }
-.status-bar__colmn:nth-child(2) {
+.status-bar__column:nth-child(2) {
     display: flex;
     justify-content: center;
 }
