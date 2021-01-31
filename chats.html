@@ -4,7 +4,7 @@
     <link rel="stylesheet" href="css/styles.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Friends - kokoa clone</title>
+    <title>Chats - kokoa clone</title>
 </head>
 <body>
     <div class="status-bar">
@@ -24,51 +24,53 @@
 
 
     <header class="screen-header">
-        <h1 class="screen-header__title">Friends</h1>
+        <h1 class="screen-header__title">Chats</h1>
         <div class="screen-header__icons">
             <span><i class="fas fa-search fa-lg"></i></span>
+            <span><i class="far fa-comment-dots fa-lg"></i></span>
             <span><i class="fas fa-music fa-lg"></i></span>
             <span><i class="fas fa-cog fa-lg"></i></span>
         </div>
     </header>
 
-    <a id="friends-display-link">
-        <i class="fas fa-info-circle"></i>
-        Friends Names Display
-        <i class="fas fa-chevron-right fa-xs"></i></a>
-
-        <main class="friends-screen">
-            <div class="user-component">
+        <main class="main-screen">
+            <div class="user-component__chat">
                 <div class="user-component__column">
-                    <img src="https://github.com/yangbreoll/kokoa-clone/blob/master/css/%EC%A0%9C%EB%AA%A9%20%EC%97%86%EC%9D%8C-1.jpg?raw=trueg" class="user-component-avatar user-component-avatar--xl" />
+                    <img src="https://github.com/yangbreoll/kokoa-clone/blob/master/css/%EC%A0%9C%EB%AA%A9%20%EC%97%86%EC%9D%8C-1.jpg?raw=trueg" class="user-component-avatar user-component-avatar" />
                     <div class="user-component__text">
-                     <h4 class="user-component__title">Yang_Byeoll</h4>
-                     <!--<h6 class="user-component__subtitle">this text ~</h6>-->
+                        <h4 class="user-component__title">Yang_Byeoll</h4>
+                        <h6 class="user-component__subtitle">나는 나다</h6>
                     </div>
                 </div>
-                <div class="user-component__column"></div>
-            </div>
-            
-            <div class="friends-screen__channer">
-                <div class="friends-screen__channer-header">
-                    <span>Channel</span>
-                    <i class="fas fa-chevron-up fa-xs"></i>
-                
-            </div>
-            <div class="user-component">
                 <div class="user-component__column">
-                    <img src="https://pht.qoo-static.com/KwGCiEolNEeR9Q4RFOnDtb8Pvqs3LNiQEdE07wMCnoULO3yLUprHbGGLBYNEt8k7WJY=w512" class="user-component-avatar user-component-avatar--sm" />
+                    <span class="user-component__time">21:22</span>
+                    <div class="badge">1</div>
+                </div>
+            </div>
+            <div class="user-component__chat">
+                <div class="user-component__column">
+                    <img src="C:\Users\yang\Desktop\vaporwave/1.jpg" class="user-component-avatar user-component-avatar" />
                     <div class="user-component__text">
-                        <h4 class="user-component__title user-component__title--not-bold">Kokoa</h4>
-                        <!--<h6 class="user-component__subtitle">this text ~</h6>-->
+                        <h4 class="user-component__title">여민요민</h4>
+                        <h6 class="user-component__subtitle">낼은 공부하자..</h6>
                     </div>
                 </div>
-
                 <div class="user-component__column">
-                    <div>
-                        <span>2</span>
-                    <i class="fas fa-chevron-right fa-xs"></i>
+                    <span class="user-component__time">22:22</span>
+                    <div class="badge">5</div>
+                </div>
+            </div>
+            <div class="user-component__chat">
+                <div class="user-component__column">
+                    <img src="C:\Users\yang\Desktop\vaporwave/2.jpg" class="user-component-avatar user-component-avatar" />
+                    <div class="user-component__text">
+                        <h4 class="user-component__title">nakko</h4>
+                        <h6 class="user-component__subtitle">뭐하닝</h6>
                     </div>
+                </div>
+                <div class="user-component__column">
+                    <span class="user-component__time">22:50</span>
+                    <div class="badge">3</div>
                 </div>
             </div>
 
@@ -78,11 +80,11 @@
     <nav class="nav">
         <ul class="nav__list">
             <li class="nav__btn" >
-                <a class="nav__link" href="friends.html"><i class="fas fa-user fa-2x"></i></a></li>
+                <a class="nav__link" href="friends.html"><i class="far fa-user fa-2x"></i></a></li>
             <li class="nav__btn"> 
                 <a class="nav__link" href="chats.html">
                     <span class="nav__notification badge">9</span>
-                    <i class="far fa-comment fa-2x"></i></a></li>
+                    <i class="fas fa-comment fa-2x"></i></a></li>
             <li class="nav__btn">
                 <a class="nav__link" href="find.html"><i class="fas fa-search fa-2x"></i></a></li>
             <li class="nav__btn">

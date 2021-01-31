@@ -1,0 +1,11 @@
+.user-component__chat {
+    margin-bottom: 25px;
+   
+    padding-bottom:  15px;
+}
+.user-component__chat {
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    color: rgba(0, 0, 0, 0.5);
+}
