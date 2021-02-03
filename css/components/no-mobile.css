@@ -2,7 +2,11 @@
     position: absolute;
     z-index: 99;
     height: 100vh;
+<<<<<<< Updated upstream
     background-color: tomato;
+=======
+    background-color: var(--pink);
+>>>>>>> Stashed changes
     width: 100vw;
     justify-content: center;
     display: flex;
